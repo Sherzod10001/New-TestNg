@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Expedia">
+  
+  <listeners>
+  <listener class-name="package2.TestNGListeners"></listener>
+  </listeners>
+  
+  <test name="Flights">
+  
+    <classes>
+      <class name="package1.TestListener"/>
+      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
